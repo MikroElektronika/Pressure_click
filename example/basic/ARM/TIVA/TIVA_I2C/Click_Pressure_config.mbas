@@ -1,0 +1,8 @@
+module Click_Pressure_config
+
+include Click_Pressure_types
+
+const
+    _PRESSURE_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.
